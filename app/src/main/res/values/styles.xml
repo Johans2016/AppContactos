@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="botonDecorado" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorBlanco</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+    </style>
+
+    <style name="editexDecorado" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="emailDecorado" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="nombreDecorado" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+</resources>
